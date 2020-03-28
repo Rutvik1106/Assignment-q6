@@ -1,0 +1,49 @@
+body{
+	background-color:#660000;
+	background-position: center; 
+	margin-top: 270px;
+	margin-left: 400px;
+}
+#title{
+	margin-top: 0px;
+	color: white;
+}
+.cursor-box{
+	width: 186px;
+	height: 186px;
+	position: relative;
+	border-radius: 12px;
+	background: #881238;
+	box-shadow: 0px 4px 12px rgba(105,6,38,0.25);
+	display: inline-block;
+	margin-left: 24px;
+	transition: 200ms ease;
+
+
+}
+.cursor-box:hover{
+	background-color: #BC144A;
+
+}
+.cursor-box:first-of-type{
+    margin-left: 0px;
+}
+.cursor-box p{
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 186px;
+	color: white;
+	pointer-events: none;
+}
+#poker-face{
+	cursor: url("https://image.ibb.co/kSQHi6/cursor.png"),auto; 
+}
+
+#happy-face{
+	cursor: url("https://image.ibb.co/kSQHi6/cursor.png"),auto;
+}
+#sad-face{
+	cursor: url("https://image.ibb.co/kSQHi6/cursor.png"),auto;
+}
